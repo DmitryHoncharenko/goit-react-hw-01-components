@@ -1,0 +1,26 @@
+.statistics {
+  width: 400px;
+  border: 5px solid gray;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.title {
+  padding-left: 120px;
+}
+
+.statList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.item {
+  display: inline-flex;
+  flex-direction: column;
+}
